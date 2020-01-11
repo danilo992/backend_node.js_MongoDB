@@ -9,3 +9,8 @@ function mensagen(a, b, c, d) {
 }
 
 mensagen(a, b, c, d)
+
+const funcoes = require("./funcoes.js")
+let resultado = funcoes.validar("Danilo", "1234")
+
+console.log(resultado)
